@@ -15,6 +15,7 @@ class NavBar extends Component {
     render() {
         return (
             <div>
+              
                 <div className="navbar-container">
                     <div className="logo-container">
                         <Link to="/"><img className="logo-image" src={Logo} alt="" /></Link>
@@ -29,6 +30,7 @@ class NavBar extends Component {
                     </div>
                 </div>
                 <hr />
+               
             </div>
         )
     }
